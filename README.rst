@@ -7,7 +7,7 @@ credential creation and requests signing.
 
 .. image:: https://img.shields.io/pypi/v/ovh.svg
            :alt: PyPi Version
-           :target: https://pypi.python.org/pypi/ovh
+           :target: https://pypi.python.org/pypi/ovhi
 .. image:: https://travis-ci.org/ovh/python-ovh.svg?branch=master
            :alt: Build Status
            :target: https://travis-ci.org/ovh/python-ovh
@@ -104,7 +104,7 @@ Depending on the API you want to use, you may set the ``endpoint`` to:
 * ``kimsufi-ca`` for Kimsufi North America API
 * ``runabove-ca`` for RunAbove API
 
-See Configuration_ for more inforamtions on available configuration mechanisms.
+See Configuration_ for more informations on available configuration mechanisms.
 
 .. note:: When using a versioning system, make sure to add ``ovh.conf`` to ignored
           files. It contains confidential/security-sensitive informations!
